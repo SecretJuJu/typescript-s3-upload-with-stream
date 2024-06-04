@@ -1,0 +1,27 @@
+{
+  "name": "typescript-s3-upload-with-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.588.0",
+    "@aws-sdk/lib-storage": "^3.588.0",
+    "archiver": "^7.0.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/archiver": "^6.0.2",
+    "@types/node": "^20.14.1",
+    "prettier": "^3.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
